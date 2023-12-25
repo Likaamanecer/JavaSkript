@@ -1,0 +1,35 @@
+/*class User {
+    #name = '';
+
+    static name = '';
+
+     name = 'sds';
+    constructor(name) {
+        this.User = name;
+        this.#name = name;
+    }
+static bye () {
+    console.log(`Bye ${this.name}`);
+}
+    get name(){
+        return this.#name;
+    }
+
+    set name(name) {
+        this.#name = name
+    }
+
+    hello() {
+        console.log('hello' + this.name);
+        console.log(`Hello ${this.#name}`);
+    }
+}
+
+const user1 = new User('user1');
+console.log(user1.name)
+user1.hello();
+User.bye();
+console.log(user1.name);
+user1.name='user2';
+console.log(user1.name);
+console.log(typeof User)*/
