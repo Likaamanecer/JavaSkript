@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavenderblush;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    
+    width: 50%;
+
+    padding: 50px 40px;
+}
+
+.input {
+    display: inline-block;
+
+    height: 100px;
+    border: 1px solid rgb(243, 158, 231);
+    border-radius: 5px;
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    background-color: rgba(117, 167, 213, 0.8);
+}
+
+.input_field {
+    margin: auto 20px auto 10px;
+
+    width: 300px;
+    height: 40px;
+
+    border: 1px solid rgb(212, 139, 206);
+    border-radius: 15px;
+
+    line-height: 2;
+
+    text-align:center;
+}
+
+.input_field::placeholder {
+    text-align: center;
+}
+
+.input-btn {
+    width: 100px;
+    height: 100%;
+    
+    border: 1px solid rgb(236, 152, 233);
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+    line-height: 1.5;
+}
+
+.main-title {
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    text-align: center;
+    font-family: 'Calibri', Times, serif;
+    font-weight: 900;
+
+
+}
+
+.main-descr {
+    margin-bottom: 15px;
+    padding: 50px;
+
+    border: 2px solid rgb(238, 168, 197);
+    border-radius: 50px;
+    background-color: rgb(164, 211, 245);
+}
+
+li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-family: 'Calibri', Times, serif;
+    font-weight: 500;
+    list-style: none;
+}
+
+.li-header {
+    font-size: 20px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+.descr {
+    font-family: 'Calibri', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.closed-card {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.open-card {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.game-field {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(201, 51, 189, 0.3);
+    max-width: 600px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
